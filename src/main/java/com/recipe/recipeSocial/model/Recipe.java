@@ -22,8 +22,6 @@ public class Recipe {
     @Column(columnDefinition = "TEXT")
     private String description;
 
-    private String imageUrl;
-
     @Column(columnDefinition = "TEXT")
     private String instructions;
 
